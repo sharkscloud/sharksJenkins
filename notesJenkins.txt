@@ -1,0 +1,26 @@
+11/21/2021 Jenkins
+
+1) Need to install java
+2) yum install java-1.8*
+3) find /usr/lib/jvm/java-1.8* | head -n 3
+4) ls -l /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.302.b08-0.amzn2.0.1.x86_64/jre/
+5) cd ~ --> go back to root dir 
+6) vim .bash_profile 
+7) # .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.302.b08-0.amzn2.0.1.x86_64
+PATH=$PATH:$HOME/bin:$JAVA_HOME
+
+export PATH
+
+8) logoout and log back in and type java -version
+
+9) Install Jenkins --> google type install jenkins and find steps 
+10) 
