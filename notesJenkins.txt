@@ -58,4 +58,12 @@ Scenario: Shaban tasked to build JavaScript code using React Framework. His appl
 for e-commarce purposes. After 2 weeks he needs to upgrade his code. Basically he needs to add Vritual 
 Gift Cards functionality to the website. Shaban needs to take existing code and add extra lines of code.
 After modifing the code Shaban pushes his changes to GitHub. Once changes checked in GitHub Jenkins will build 
-the code and deploy to target servers. Deployment works in 1st time but it fails in the next runs.  
+the code and deploy to target servers. Deployment works in 1st time but it fails in the next runs. 
+
+=========================================================
+Homework 12/04/2021
+
+1) Based on scenario above you need to create a REAMDE.md file and put all the steps how you build 
+smart code 
+2) Insted of using local images (images in VM) you need to pull images from DockerHub. 
+=========================================================
