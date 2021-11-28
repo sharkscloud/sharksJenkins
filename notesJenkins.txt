@@ -50,3 +50,12 @@ Ansible - 11/27/2021
 1) Configuration Management tool. 
 2) Install Asnible --> python and pip3 
 3) pip3 install ansible 
+
+
+11/28/2021  Jenkins/Docker/Ansible cont. 
+
+Scenario: Shaban tasked to build JavaScript code using React Framework. His application will be served 
+for e-commarce purposes. After 2 weeks he needs to upgrade his code. Basically he needs to add Vritual 
+Gift Cards functionality to the website. Shaban needs to take existing code and add extra lines of code.
+After modifing the code Shaban pushes his changes to GitHub. Once changes checked in GitHub Jenkins will build 
+the code and deploy to target servers. Deployment works in 1st time but it fails in the next runs.  
